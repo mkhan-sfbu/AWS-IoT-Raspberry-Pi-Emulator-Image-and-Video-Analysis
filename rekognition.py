@@ -23,7 +23,7 @@ cap = cv2.VideoCapture(0)
 cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)
 cap.set(cv2.CAP_PROP_FPS, 2)
 
-session = boto3.Session(aws_access_key_id="AKIAZXXGXXXSZBQHVOWZ", aws_secret_access_key="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", region_name='us-east-1')
+session = boto3.Session(aws_access_key_id="...", aws_secret_access_key="...", region_name='us-east-1')
 
 polly = session.client('polly')
 rekognition = session.client('rekognition')
